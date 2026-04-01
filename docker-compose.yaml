@@ -1,0 +1,13 @@
+version: "1"
+services:
+  web:
+    build: .
+    # port for remote development
+    ports:
+      - '5005:5005'
+    depends_on:
+      mysql:
+        condition: service_started
+  # spin up mysql to populate with migration and service usage
+  mysql:
+    image: mysql:latest
