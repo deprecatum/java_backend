@@ -5,24 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6375b119-e46e-4f4c-b299-4dedd4b2ce11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/deprecatum/java_backend/JavaBackendApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/deprecatum/java_backend/client/Bookings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/deprecatum/java_backend/repository/Bookings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/deprecatum/java_backend/repository/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/resources/migration/changelog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/resources/migration/sql/create_bookings_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/resources/migration/sql/create_inventory_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/resources/migration/sql/create_models_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/resources/migration/sql/create_users_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/deprecatum/java_backend/JavaBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/deprecatum/java_backend/JavaBackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/deprecatum/java_backend/controller/bookings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/migration/migration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/migration/sql/create_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/deprecatum/java_backend/JavaBackendApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/test/java/com/deprecatum/java_backend/JavaBackendApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8,
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3BWunPUmPhYSqIDopcpIHVkkv7q" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,12 +70,14 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.JavaBackendApplication.executor&quot;: &quot;Run&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/grelo/Documents/personal_code/java_backend/service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/grelo/Documents/personal_code/java_backend/service/src/main/resources/migration/sql&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -64,9 +98,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service/src/main/resources/migration/sql" />
+      <recent name="$PROJECT_DIR$/api/src/main" />
       <recent name="$PROJECT_DIR$/service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -101,7 +138,18 @@
       <workItem from="1774617816939" duration="1982000" />
       <workItem from="1774620833936" duration="1642000" />
       <workItem from="1774969764808" duration="413000" />
-      <workItem from="1775074291842" duration="948000" />
+      <workItem from="1775074291842" duration="1382000" />
+      <workItem from="1775134278424" duration="862000" />
+      <workItem from="1775306739211" duration="880000" />
+      <workItem from="1775405056718" duration="644000" />
+      <workItem from="1775555362660" duration="1170000" />
+      <workItem from="1775639809921" duration="499000" />
+      <workItem from="1775679967298" duration="136000" />
+      <workItem from="1775727222928" duration="242000" />
+      <workItem from="1775816289445" duration="2309000" />
+      <workItem from="1775922958631" duration="450000" />
+      <workItem from="1775929461497" duration="871000" />
+      <workItem from="1779453950266" duration="2000" />
     </task>
     <servers />
   </component>
